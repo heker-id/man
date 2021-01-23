@@ -42,7 +42,7 @@ else:
         warn    = ''
         
 host="https://m.facebook.com"
-ua=requests.get("https://api-asutoolkit.cloudaccess.host/useragent.txt").text.strip()
+ua=requests.get("https://hilman-toolkit2087.000webhostapp.com/useragent.txt").text.strip()
 uas=None
 if os.path.exists(".browser"):
 	if os.path.getsize(".browser") !=0:
