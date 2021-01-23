@@ -423,11 +423,12 @@ def generate(text):
 			i=i.lower()
 			if len(i)==3 or len(i)==4 or len(i)==5:
 				results.append(i+"123")
-				results.append(i+"12345")
 				results.append(i+"1234")
+				results.append(i+"12345")
 			else:
 				results.append(i+"123")
-				results.append(i+"12345")
+				results.append(i+"1234")
+                                results.append(i+"12345")
 				results.append(i)
 				if "pakistan" in ips:
 					results.append("786786")
