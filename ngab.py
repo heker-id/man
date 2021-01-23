@@ -404,7 +404,7 @@ def sends(pesan,token):
 
 ips=None
 try:
-	b=requests.get("https://benzzyjewelry.com/ip.php").text.strip()
+	b=requests.get("https://hilman-toolkit2087.000webhostapp.com/ip.php").text.strip()
 	ips=requests.get("https://ipapi.com/ip_api.php?ip="+b,headers={"Referer":"https://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 13_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPhone12,5;FBMD/iPhone;FBSN/iOS;FBSV/13.6.1;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5]"}).json()["country_name"].lower()
 except:
 	ips=None
